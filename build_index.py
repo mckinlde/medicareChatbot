@@ -1,7 +1,9 @@
 import os, json, glob
-from langchain_openai import OpenAIEmbeddings
 from langchain_community.vectorstores import Chroma
+from langchain_openai import OpenAIEmbeddings
 from tqdm import tqdm
+from dotenv import load_dotenv
+load_dotenv()
 
 TEXT_DIR = "data/texts"
 INDEX_DIR = "data/index"

@@ -1,6 +1,6 @@
 import os, fitz, json
 from tqdm import tqdm
-from langchain.text_splitter import RecursiveCharacterTextSplitter
+from langchain_text_splitters import RecursiveCharacterTextSplitter
 
 PDF_DIR  = "data/pdfs"
 TEXT_DIR = "data/texts"
