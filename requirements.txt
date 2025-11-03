@@ -1,0 +1,7 @@
+langchain
+langchain-openai
+chromadb
+PyMuPDF
+tqdm
+streamlit
+python-dotenv

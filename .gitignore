@@ -1,0 +1,4 @@
+# ignore .env (that's where the API keys are lol)
+.env
+# but also ignore everything in the data/ folder (that's where the PDFs and vector DB live)
+data/*
