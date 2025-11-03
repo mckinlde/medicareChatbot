@@ -2,3 +2,5 @@
 .env
 # but also ignore everything in the data/ folder (that's where the PDFs and vector DB live)
 data/*
+# and .venv/ (the virtual environment)
+.venv
